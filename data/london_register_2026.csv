@@ -1,0 +1,71 @@
+project,operator,country,storage_type,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025
+Northern Lights,Northern Lights JV DA,Norway,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.039491
+Sleipner,Equinor,Norway,Geological Storage,0.07,0.665,0.842,0.971,0.933,1.009,0.955,0.914,0.75,0.858,0.82,0.921,0.814,0.86,0.743,0.929,0.842,0.702,0.658,0.707,0.632,0.557,0.509,0.482,0.506,0.26,0.115,0.106,0.05,0.005425
+Snohvit,Equinor,Norway,Geological Storage,,,,,,,,,,,,,0.197,0.308,0.46,0.403,0.49,0.469,0.587,0.679,0.75,0.68,0.758,0.721,0.422,0.0,0.402,0.657,0.74,0.457291
+Carbfix Storage,"Climeworks, Carbfix",Iceland,Geological Storage,,,,,,,,,,,,,,,,,5.5e-05,,0.00238,0.00391,0.00664,0.0102,0.0122,0.0097,0.0117,,0.0121,0.0123,,
+Mammoth,"Climeworks, Carbfix",Iceland,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.000191,0.000566
+Orca,"Climeworks, Carbfix",Iceland,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.000925,0.00079
+CO2 EOR Project Croatia,MOL Group / INA,Croatia,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,0.051,0.226,0.365333,0.365333,0.365333,0.365333,0.362,0.365333,0.365333,0.269,0.2,0.7
+Tomakomai CCS Demonstration Project,Japan CCS Co. Ltd (JCCS),Japan,Geological Storage,,,,,,,,,,,,,,,,,,,,,0.02922,0.1268,0.07958,0.06451,,,,,,
+ADNOC Al Reyadah,Abu Dhabi National Oil Company (ADNOC),United Arab Emirates,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,
+Chevron Gorgon,Chevron (C) & ExxonMobil (EM) & Shell (S),Australia,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,2.707092,2.170594,1.64615,1.717841,1.59434,1.330994,
+Moomba Carbon Capture and Storage project,Santos,Australia,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.34,1.23
+Otway International Test Centre,CO2CRC Limited,Australia,Geological Storage,,,,,,,,,,,,,0.036625,0.02843,,,,,,0.0043,0.0107,,,,0.0038,0.01125,,,0.007375,
+Petrobras Santos Basin Pre-Salt Oil Field,Petrobras,Brazil,Geological Storage with Oil Recovery,,,,,,,,,,,,,0.315714,0.315714,0.315714,0.315714,0.315714,0.315714,0.315714,0.67,1.62,2.5,2.8,4.6,7.0,8.7,10.6,13.0,14.18,19.61
+Clive Sequestration Facility,Enhance Energy Inc.,Canada,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,0.929862,1.237854,1.032864,1.59,1.41,1.382226
+Aquistore,SaskPower (SP)/Petroleum Technology Research Centre (PTRC),Canada,Geological Storage,,,,,,,,,,,,,,,,,,,,0.036,0.064,0.042,0.038,0.09,0.1,0.045,0.085,0.088,0.024,0.038
+Glacier Gas Plant,Advantage Energy Ltd. / Entropy Inc.,Canada,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,0.016785,0.020887,0.026277,
+Quest,"Shell Canada, Chevron Canada Limited and Marathon Canadian Oil Sands Holding Limited.",Canada,Geological Storage,,,,,,,,,,,,,,,,,,,,0.371,1.108,1.138,1.066,1.128,0.941,1.055,0.971,1.003,1.04,0.886
+Weyburn-Midale,"Cenovus Energy/Petroleum Technology Research Centre(PTRC)-2000-2015, but 2012 come to an end injection/Whitecap Resources (W) from 2017",Canada,Geological Storage with Oil Recovery,,,,,1.555556,1.555556,1.555556,1.555556,1.555556,1.555556,1.555556,1.555556,1.555556,2.666667,2.666667,2.666667,,,,2.116983,2.07794,1.972025,1.792364,1.973197,1.992936,1.772421,1.922314,,,
+Caoshe Oilfield,China Petroleum and Chemical Corporation (Sinopec),China,Geological Storage with Oil Recovery,,,,,,,,,,0.0229,0.0229,0.0229,0.0229,0.0229,,,,,,,,,,,,,,,,
+Daqing Aonan Oilfield,PetroChina Daqing Oilfield / CNPC,China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0395,0.0395
+Enping 15-1 Offshore CO2 Storage Demonstration Project,CNOOC Limited,China,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1
+Huabei Oilfield,China National Petroleum Corporation (CNPC),China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.0013,0.0013,0.0013,0.0013,0.0013,0.0013,0.0013,0.0013,0.0013,0.0013,0.026233,0.026233,0.026233
+Jilin Oilfield,China National Petroleum Corporation (CNPC),China,Geological Storage with Oil Recovery,,,,,,,,,,,,0.104444,0.104444,0.104444,0.104444,0.104444,0.104444,0.104444,0.104444,0.104444,0.08,0.08,0.285,0.115,0.4,0.4,0.4,0.4,0.4,
+Jingbian Oilfield,Yanchang Petroleum Group,China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,0.0057,0.0057,0.0057,,,,,,,,,,,
+Karamay Dunhua,Xinjiang Dunhua Oil Technology Company,China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,
+Liaohe Oilfield,China National Petroleum Corporation (CNPC),China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.0125,0.3
+Shengli Oilfield,China Petroleum and Chemical Corporation (Sinopec),China,Geological Storage with Oil Recovery,,,,,,,,,,,,0.05,0.03,0.04,0.06,0.08,0.1,0.12,0.15,0.2,0.3,0.19,0.24,0.23,0.298,0.3076,0.657,0.847,0.966,0.97
+Shenhua Ordos,National Energy Group (formerly Shenhua Group),China,Geological Storage,,,,,,,,,,,,,,,,0.013,0.027,0.02,0.0808,0.0808,0.0808,,,,,,,,,
+Tuha Oilfield,PetroChina Tuha Oilfield / CNPC,China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.123
+Xinjiang Oilfield,China National Petroleum Corporation (CNPC),China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,0.0328,0.0328,0.0328,0.0328,0.0328,0.0328,1.0
+Xinjiang Ordos Basin,China Energy Investment Corporation (China Energy),China,Geological Storage,,,,,,,,,,,,,,,,0.1,0.1,0.1,0.1,0.1,0.1,,,,,,,,,
+Yanchang Integrated Demonstration,Shaanxi Yangchang China Coal Yulin Energy Chemical Co. Ltd. (Yulin Energy Chemical) and Shaanxi Yanchang Petroleum (Group) Co. Ltd,China,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.0957,0.0957,0.0957,0.0957,
+Zhongyuan Oilfield,China Petroleum and Chemical Corporation (Sinopec),China,Geological Storage with Oil Recovery,,,,,,,,,,,0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,0.27,,,,,,,,,,
+Qatar LNG,Qatar Energy LNG,Qatar,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,0.56,0.63,0.62,0.59,0.68,0.61,
+Uthmaniyah Carbon Dioxide Enhanced Oil Recovery (CO2-EOR) Demonstration Project,Saudi Aramco,Saudi Arabia,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,
+30-30 Gas Plant,Targa Resources Corp,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,0.012355,0.009798,0.00991,
+Air Products Port Arthur,"Air Products and Chemicals, Inc.",USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.85,0.85,0.85,0.85,0.85,0.85,0.85,0.85,,,,,
+Barnett RDC Well No. 1,"BKV dCarbon Ventures, LLC",USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.008213,0.162598,0.138
+Bell Creek Field Project,Denbury Onshore (PCOR Partnership),USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.8,0.8,0.8,0.8,,,,,,,,,
+Blue Flint CO2 Storage Project,"Harvestone Low Carbon Partners, LLC. / Blue Flint Sequester Company",USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.029956,0.173526,0.198968
+Booker Field Area,CapturePoint LLC,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.013571,
+Campo Viejo Gas Processing Plant,Stakeholder Midstream,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,0.076658,0.095305,0.099429,
+Camrick Unit,"CapturePoint, LLC",USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.03376,0.068966,
+Citronelle Project (Plant Barry),Southern Company (Alabama Power),USA,Geological Storage,,,,,,,,,,,,,,,,,0.038035,0.038035,0.038035,,,,,,,,,,,
+Core Energy Otsego County EOR Operations,Core Energy,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.327738,0.327738,0.327738,0.327738,0.327738,0.309858,0.382859,0.213515,0.232994,0.311308,0.260586,0.277014,0.057
+Cranfield,SECARB,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,0.6777,0.6777,0.6777,0.6777,0.6777,0.6777,0.6777,,,,,,,,,,
+DGC Beulah Broom Creek,Dakota Gasification Company -- Basin Electric Power Coop,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.386986,1.350734
+Dark Horse Treating Plant,Enterprise Products Partners Lp,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.081512,
+Denver Unit / Wasson San Andres Field,OXY,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,3.090608,3.380108,3.489481,3.391747,2.849672,2.613774,2.996985,3.669743,6.766093,
+ExxonMobil Aggregate Projects,ExxonMobil (EM),USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,4.4,4.6,4.8,5.0,4.8,5.9,6.9,6.9,6.3,6.6,6.572913,2.356499,2.780988,3.309033,3.296827,3.290579,3.572641,7.0
+Farnsworth Unit CO2 Flood,CapturePoint LLC,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.131932,0.131932,0.131932,0.131932,0.131932,0.131932,,,,0.092201,0.070045,0.110961,
+Hobbs Field,"Occidental Permian Ltd, Occidental Petroleum Corporation, and their affiliates",USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,2.071627,2.910162,3.661626,2.138919,1.706149,2.189393,5.198002,2.14724,
+Illinois Basin Decatur Project (IBDP),Archer Daniels Midland Co.,USA,Geological Storage,,,,,,,,,,,,,,,,0.034027,0.326482,0.333939,0.301375,,,,,,,,,,,
+Illinois Industrial Carbon Capture and Sequestration Project,Archer Daniels Midland Co.,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,0.0,,0.50665,0.525002,0.51978,0.521581,0.443928,0.42858,0.543978,0.33219,
+North Burbank Unit,CapturePoint LLC,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,0.498571,0.498571,0.498571,0.498571,0.498571,0.498571,0.498571,0.66031,0.714124,0.65243,0.631377,0.727208,
+Petra Nova West Ranch,ENEOS Xplora,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.35984,0.653622,
+Rangely CO2 Flood,Arete Energy; MMJG Colorado LLC; Scout Energy Management LLC,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.002569,
+Red Hills Gas Processing Plant,Targa Resources Corp,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,0.000987,0.023775,0.02236,0.063217,
+"Red Trail Energy, LLC",Gevo Net Zero,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,0.081964,0.164834,0.173394,0.172587
+SPG CO2 Bowie Facility,EOG Resources Inc,USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.063844,0.123984,
+Seminole East Field (SEF),Stakeholder Midstream,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.032577,,
+Seminole San Andres Unit,"OXY USA, INC",USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.932897,1.981219,
+Shute Creek,ExxonMobil (EM),USA,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,0.427087,0.376409,0.418418,0.424817,0.395332,0.435081,0.486365,
+West Seminole San Andres Unit,OXY USA WTP LP,USA,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,0.815505,0.768682,0.736405,0.783699,
+MOL Szank Field CO2-EOR,MOL Group,Hungary,Geological Storage with Oil Recovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.16
+ENI Ravenna CCS Phase 1,Eni (with Snam),Italy,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025,0.025
+In Salah,Sonatrach & BP & Equinor (In Salah Gas JV),Algeria,Geological Storage,,,,,,,,,0.4825,0.4825,0.4825,0.4825,0.4825,0.4825,0.4825,0.4825,,,,,,,,,,,,,,
+44.01 Project Hajar,44.01,Oman,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.025
+Sirona Project Moringa,Sirona Technologies,Oman,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0018
+Ngawha Geothermal Reinjection,Ngawha Generation,New Zealand,Geological Storage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.128,0.128

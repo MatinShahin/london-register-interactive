@@ -1,0 +1,42 @@
+[
+ {
+  "id": "ar_2026",
+  "edition": 2026,
+  "title": "Annual Report 2026",
+  "kind": "Annual report",
+  "url": "https://github.com/ImperialCollegeLondon/The-London-Register-of-Subsurface-CO2-Storage/releases/download/2026-materials/London_Register_Annual_Report_2026.pdf",
+  "size_mb": 1.8
+ },
+ {
+  "id": "dnv_2026",
+  "edition": 2026,
+  "title": "DNV Assessment Report 2026",
+  "kind": "Data assurance \u00b7 DNV",
+  "url": "https://github.com/ImperialCollegeLondon/The-London-Register-of-Subsurface-CO2-Storage/releases/download/2026-materials/DNV_Data_Assurance_Summary_2026.pdf",
+  "size_mb": 1.1
+ },
+ {
+  "id": "meth_2026",
+  "edition": 2026,
+  "title": "Methodology Report 2026",
+  "kind": "Methodology",
+  "url": "https://github.com/ImperialCollegeLondon/The-London-Register-of-Subsurface-CO2-Storage/releases/download/2026-materials/London_Register_Methodology_2026.pdf",
+  "size_mb": 0.8
+ },
+ {
+  "id": "ar_2025",
+  "edition": 2025,
+  "title": "Annual Report 2025",
+  "kind": "Annual report",
+  "url": "https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/downloads/London_Register_Annual_Report_2025.pdf",
+  "size_mb": 1.6
+ },
+ {
+  "id": "dnv_2025",
+  "edition": 2025,
+  "title": "DNV Data Quality Assurance 2025",
+  "kind": "Data assurance \u00b7 DNV",
+  "url": "https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/downloads/DNV_Data_Quality_Assurance_2025.pdf",
+  "size_mb": 0.8
+ }
+]

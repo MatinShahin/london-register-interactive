@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this interactive edition, please cite it as below, and cite The London Register of Subsurface CO2 Storage for the data."
+title: "London Register of Subsurface CO2 Storage: Interactive Edition"
+type: software
+authors:
+  - family-names: Shahin
+    given-names: Matin
+license: MIT
+date-released: 2026-10-27
+keywords:
+  - carbon capture and storage
+  - CO2 storage
+  - geological storage
+  - data visualisation
+  - CCS
+references:
+  - type: report
+    title: "The London Register of Subsurface CO2 Storage: 2026 Annual Report"
+    authors:
+      - family-names: Gao
+        given-names: Xiaowei
+      - family-names: Elizarev
+        given-names: Max
+      - family-names: Krevor
+        given-names: Samuel
+    institution:
+      name: Imperial College London
+    year: 2026
+    url: "https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/"

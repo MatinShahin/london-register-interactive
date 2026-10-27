@@ -1,0 +1,338 @@
+<link rel="stylesheet" href="brand.css">
+<div class="lr" id="lr">
+  <header class="lr-mast" id="overview-head">
+    <div class="lr-brand">
+      <span class="lr-mark" id="lr-mark" aria-hidden="true"></span>
+      <span class="lr-wm"><b>London Register</b><small>Subsurface CO<sub>2</sub> Storage</small></span>
+      <span class="lr-ed">Interactive edition<br>2026 data release</span>
+    </div>
+    <h1 class="lr-title">The London Register of Subsurface CO<sub>2</sub> Storage</h1>
+    <p class="lr-lede">An annual, source-traceable account of the CO<sub>2</sub> that operating projects report storing in geological formations, compiled at Imperial College London and independently assured by DNV.</p>
+    <nav class="lr-tabs" role="tablist" aria-label="Pages">
+      <button role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+      <button role="tab" id="tab-analysis" data-tab="analysis" aria-selected="false">Analysis</button>
+      <button role="tab" id="tab-projects" data-tab="projects" aria-selected="false">Projects</button>
+      <button role="tab" id="tab-quality" data-tab="quality" aria-selected="false">Data quality</button>
+      <button role="tab" id="tab-data" data-tab="data" aria-selected="false">Data &amp; reports</button>
+      <button role="tab" id="tab-about" data-tab="about" aria-selected="false">About</button>
+    </nav>
+  </header>
+
+  <!-- ================= OVERVIEW ================= -->
+  <section class="lr-page" id="overview" data-page="overview">
+    <div class="lr-stats">
+      <div class="lr-stat"><div class="lr-eyebrow">Cumulative stored</div><div class="lr-stat__v"><span class="dash-skeleton" data-source="kpis" data-field="cumulative_mt" id="k-cum">—</span><small>Mt</small></div><div class="lr-stat__d">1996–2025, including partial 2025</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">Stored in 2024</div><div class="lr-stat__v"><span class="dash-skeleton" data-source="kpis" data-field="total_2024_mt" id="k-24">—</span><small>Mt</small><span class="lr-delta" data-source="kpis" data-field="change_2024_pct" id="k-24d">—</span></div><div class="lr-stat__d">Most recent complete year, change on 2023</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">Reported for 2025</div><div class="lr-stat__v"><span class="dash-skeleton" data-source="kpis" data-field="total_2025_mt" id="k-25">—</span><small>Mt</small></div><div class="lr-stat__d">Reporting still in progress</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">Projects reporting in 2024</div><div class="lr-stat__v"><span class="dash-skeleton" data-source="kpis" data-field="projects_2024" id="k-np">—</span><small>in <span data-source="countries_2024" data-field="countries_2024" id="k-nc">—</span> countries</small></div><div class="lr-stat__d">Of <span data-source="findings" data-field="project_count" id="k-all">—</span> projects on the Register</div></div>
+    </div>
+
+    <div class="lr-figure" id="fig1-card">
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Figure 1</div><h3 class="lr-figure__title">Annual CO<sub>2</sub> stored, 1996–2025</h3><div class="lr-figure__sub" id="f1sub">Million tonnes per year, by storage type</div></div>
+        <div class="lr-ctls">
+          <div class="lr-seg" role="group" aria-label="Measure"><button aria-pressed="true" data-f1m="annual">Annual</button><button aria-pressed="false" data-f1m="cum">Cumulative</button></div>
+          <div class="lr-seg" role="group" aria-label="Colour by"><button aria-pressed="true" data-f1g="type">Storage type</button><button aria-pressed="false" data-f1g="country">Country</button></div>
+        </div>
+      </div>
+      <div class="lr-chart" id="fig1" data-source="annual annual_country"></div>
+      <div class="lr-figure__legend" id="fig1-legend"></div>
+      <div class="lr-figure__src">Source: The London Register of Subsurface CO<sub>2</sub> Storage, Imperial College London (2026). 2025 is drawn lighter because reporting is incomplete.</div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Key findings</div><h2>What the 2024 record shows</h2><p>Four readings computed directly from the Register for 2024, the most recent complete year.</p></div>
+    <div class="lr-find">
+      <div class="lr-card lr-fcard">
+        <div class="lr-eyebrow">Ten-year growth</div>
+        <div class="lr-fig"><span data-source="findings" data-field="cagr_10y_pct" id="f-cagr">—</span><small>% a year</small></div>
+        <p>Compound growth in annual storage from 2014 to 2024. In 2024, <b data-source="kpis" data-field="projects_2024" id="f-np24">—</b> projects reported, up from <b data-source="kpis" data-field="projects_2023" id="f-np23">—</b>.</p>
+        <div class="lr-mini" id="mini-total" data-source="annual"></div>
+      </div>
+      <div class="lr-card lr-fcard">
+        <div class="lr-eyebrow">Stored with oil recovery</div>
+        <div class="lr-fig"><span data-source="findings" data-field="oil_recovery_share_2024_pct" id="f-oil">—</span><small>% of 2024</small></div>
+        <p>Injected into producing oil fields. Dedicated geological storage supplied <b><span data-source="findings" data-field="geological_2024_mt" id="f-geo">—</span> Mt</b>.</p>
+        <div class="lr-mini" id="mini-oil" data-source="annual"></div>
+      </div>
+      <div class="lr-card lr-fcard">
+        <div class="lr-eyebrow">Five largest projects</div>
+        <div class="lr-fig"><span data-source="findings" data-field="top5_share_2024_pct" id="f-top5">—</span><small>% of 2024</small></div>
+        <p>Led by <b data-source="findings" data-field="lead_project_2024" id="f-lead">—</b> at <span data-source="findings" data-field="lead_project_2024_mt" id="f-leadmt">—</span> Mt.</p>
+        <div class="lr-mini" id="mini-top5" data-source="annual"></div>
+      </div>
+      <div class="lr-card lr-fcard">
+        <div class="lr-eyebrow">Start cohort</div>
+        <div class="lr-fig"><span data-source="findings" data-field="top_cohort_share_pct" id="f-coh">—</span><small>% of 2024</small></div>
+        <p>From projects that began reporting in <b data-source="findings" data-field="top_cohort_2024" id="f-cohk">—</b>. Projects starting from 2020 supplied <span data-source="findings" data-field="cohort_2020_share_pct" id="f-coh20">—</span>%.</p>
+        <div class="lr-mini" id="mini-cohort" data-source="annual_cohort"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ANALYSIS ================= -->
+  <section class="lr-page" id="analysis" data-page="analysis" hidden>
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Countries</div><h2>Where CO<sub>2</sub> has been stored</h2><p>Cumulative storage by country, split by storage type. Select a country to filter the project list.</p></div>
+    <div class="lr-grid-2">
+      <div class="lr-figure" id="map-card">
+        <div class="lr-figure__head"><div><div class="lr-figure__no">Figure 2</div><h3 class="lr-figure__title">Cumulative CO<sub>2</sub> stored by country, 1996–2025</h3><div class="lr-figure__sub">Circle area proportional to Mt stored</div></div></div>
+        <div class="lr-chart" id="map" data-source="countries"></div>
+        <div class="lr-figure__legend"><span><i class="sw-geo"></i>Geological storage</span><span><i class="sw-oil"></i>Geological storage with oil recovery</span></div>
+      </div>
+      <div class="lr-card">
+        <div class="lr-cardhead"><h3 class="lr-figure__title">Ranking</h3><span class="lr-figure__sub">Mt CO<sub>2</sub></span></div>
+        <table class="lr-rank" id="rank" data-source="countries" data-row-key="country">
+          <thead><tr><th data-field="country">Country</th><th class="bar-h" aria-label="Split by storage type"></th><th data-field="cumulative" class="n">Mt</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button class="lr-btn lr-btn--quiet" id="rank-more">Show all countries</button>
+      </div>
+    </div>
+
+    <div class="lr-figure" id="comp-card">
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Figure 3</div><h3 class="lr-figure__title">Composition of annual storage over time</h3><div class="lr-figure__sub" id="compsub">Mt per year by country</div></div>
+        <div class="lr-ctls">
+          <div class="lr-seg" role="group" aria-label="Measure"><button aria-pressed="true" data-cm="abs">Mt per year</button><button aria-pressed="false" data-cm="share">Share</button></div>
+          <div class="lr-seg" role="group" aria-label="Group by"><button aria-pressed="true" data-cg="country">Country</button><button aria-pressed="false" data-cg="type">Storage type</button><button aria-pressed="false" data-cg="cohort">Start cohort</button></div>
+        </div>
+      </div>
+      <div class="lr-chart" id="comp" data-source="annual annual_country annual_cohort"></div>
+      <div class="lr-figure__legend" id="comp-legend"></div>
+      <div class="lr-figure__src">Source: The London Register of Subsurface CO<sub>2</sub> Storage (2026). Start cohort is the first year a project reports storage.</div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Year-on-year change</div><h2>Which projects moved the total</h2><p>A bridge from one year's total to the next, by the projects that changed most. All other projects are netted into one bar.</p></div>
+    <div class="lr-grid-2 lr-grid-2--wide">
+      <div class="lr-figure" id="bridge-card">
+        <div class="lr-figure__head">
+          <div><div class="lr-figure__no">Figure 4</div><h3 class="lr-figure__title">Change in annual storage by project</h3><div class="lr-figure__sub">Mt CO<sub>2</sub>; the horizontal axis does not start at zero</div></div>
+          <div class="lr-step"><button class="lr-icon" id="bprev" aria-label="Previous year">‹</button><select id="byear" aria-label="Years to compare"></select><button class="lr-icon" id="bnext" aria-label="Next year">›</button></div>
+        </div>
+        <div class="lr-chart" id="bridge" data-source="changes change_summary"></div>
+        <div class="lr-figure__legend"><span><i class="sw-ink"></i>Annual total</span><span><i class="sw-up"></i>Increase</span><span><i class="sw-down"></i>Decrease</span></div>
+      </div>
+      <div class="lr-card lr-bsum">
+        <div class="lr-eyebrow" id="bsum-label">—</div>
+        <div class="lr-callout"><span data-source="change_summary" data-field="change" id="b-chg">—</span><small>Mt</small></div>
+        <div class="lr-figure__sub"><span data-source="change_summary" data-field="change_pct" id="b-pct">—</span>% change in annual storage</div>
+        <dl class="lr-kv">
+          <dt>Projects that increased</dt><dd data-source="change_summary" data-field="increased" id="b-up">—</dd>
+          <dt>Projects that decreased</dt><dd data-source="change_summary" data-field="decreased" id="b-down">—</dd>
+          <dt>First year reporting</dt><dd data-source="change_summary" data-field="began" id="b-new">—</dd>
+          <dt>Stopped reporting</dt><dd data-source="change_summary" data-field="stopped" id="b-stop">—</dd>
+        </dl>
+        <p class="lr-note" id="b-note"></p>
+      </div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Share by project</div><h2>Who stored each year's CO<sub>2</sub></h2><p>Each grid has 400 squares; one square is 0.25% of the year's reported storage. Hover a square for its project, or open a country to list its projects.</p></div>
+    <div class="lr-figure" id="waffle-card">
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Figure 5</div><h3 class="lr-figure__title">Share of annual storage by project and country</h3><div class="lr-figure__sub" id="wsub">—</div></div>
+        <div class="lr-step"><button class="lr-icon" id="wprev" aria-label="Previous year">‹</button><select id="wyear" aria-label="Year"></select><button class="lr-icon" id="wnext" aria-label="Next year">›</button></div>
+      </div>
+      <div class="lr-waffle-grid">
+        <div class="lr-waffle" id="waffle" data-source="shares" role="img" aria-label="Grid chart of storage share by project"></div>
+        <div class="lr-clist" id="clist" data-source="shares"></div>
+      </div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Outlook</div><h2>How far is gigatonne scale at the current growth rate?</h2><p>Mitigation pathways call for storage of the order of gigatonnes a year by mid-century. This view fits the Register's complete years and extends them forward.</p></div>
+    <div class="lr-grid-2 lr-grid-2--wide">
+      <div class="lr-figure" id="proj-card">
+        <div class="lr-figure__head"><div><div class="lr-figure__no">Figure 6</div><h3 class="lr-figure__title">Annual storage with a growth scenario to 2050</h3><div class="lr-figure__sub">Mt CO<sub>2</sub> per year, logarithmic scale</div></div></div>
+        <div class="lr-chart" id="proj" data-source="annual growth"></div>
+        <div class="lr-figure__legend"><span><i class="sw-ink"></i>Reported (complete years)</span><span><i class="sw-geo"></i>Fitted trend, 2005–2024</span><span><i class="sw-oil"></i>Scenario</span></div>
+      </div>
+      <div class="lr-card lr-outlook">
+        <div><div class="lr-eyebrow">Fitted growth, 2005–2024</div><div class="lr-callout"><span data-source="growth" data-field="rate_pct" id="o-fit">—</span><small>% a year</small></div>
+          <div class="lr-figure__sub">R² <span data-source="growth" data-field="r2" id="o-r2">—</span> · doubling every <span data-source="growth" data-field="doubling_years" id="o-dbl">—</span> years</div></div>
+        <label class="lr-eyebrow" for="g">Scenario growth rate · <span id="o-g" data-source="scenarios" data-field="rate_pct">—</span>% a year</label>
+        <input id="g" type="range" min="4" max="35" step="0.5">
+        <div class="lr-two">
+          <div><div class="lr-eyebrow">1 Gt a year reached</div><div class="lr-callout lr-callout--sm" data-source="scenarios" data-field="gt_year" id="o-gt">—</div></div>
+          <div><div class="lr-eyebrow">Annual rate in 2050</div><div class="lr-callout lr-callout--sm"><span data-source="scenarios" data-field="rate_2050_mt" id="o-50">—</span><small>Mt</small></div></div>
+        </div>
+        <p class="lr-note">An illustrative extrapolation calculated in this edition from Register totals, not a finding of the Register. For peer-reviewed analysis see Zhang, Jackson &amp; Krevor (2024).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="lr-page" id="projects" data-page="projects" hidden>
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Projects</div><h2>Every project on the Register</h2><p>Search, filter and sort. Select a project for its year-by-year record, and add up to four to a comparison.</p></div>
+    <div class="lr-filters">
+      <input id="q" type="search" placeholder="Search project, operator or country" aria-label="Search projects">
+      <select id="fc" aria-label="Country"><option value="">All countries</option></select>
+      <select id="ft" aria-label="Storage type"><option value="">All storage types</option><option value="geo">Geological storage</option><option value="oil">With oil recovery</option></select>
+    </div>
+    <div class="lr-figure" id="detail-card" hidden>
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Project</div><h3 class="lr-figure__title" id="d-name">—</h3><div class="lr-figure__sub" id="d-sub">—</div></div>
+        <div class="lr-ctls"><button class="lr-btn" id="d-cmp">Add to comparison</button><button class="lr-icon" id="d-close" aria-label="Close project">×</button></div>
+      </div>
+      <div class="lr-detail">
+        <div class="lr-chart" id="d-chart" data-source="register"></div>
+        <dl class="lr-kv" id="d-kv">
+          <dt>Years reporting</dt><dd data-source="projects" data-field="years_reporting" id="d-yrs">—</dd>
+          <dt>Peak year</dt><dd data-source="projects" data-field="peak_year" id="d-py">—</dd>
+          <dt>Peak</dt><dd><span data-source="projects" data-field="peak_mt" id="d-pk">—</span> Mt</dd>
+          <dt>2024 rate</dt><dd><span data-source="projects" data-field="mt_2024" id="d-24">—</span> Mt</dd>
+          <dt>Cumulative</dt><dd><span data-source="projects" data-field="cumulative" id="d-cum">—</span> Mt</dd>
+          <dt>Start cohort</dt><dd data-source="projects" data-field="cohort" id="d-coh">—</dd>
+          <dt>Longest repeated run</dt><dd><span data-source="projects" data-field="repeated_run" id="d-run">—</span> <span id="d-run-u">years</span></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="lr-figure" id="cmp-card" hidden>
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Comparison</div><h3 class="lr-figure__title">Selected projects</h3><div class="lr-figure__sub" id="cmpsub">Mt CO<sub>2</sub> per year</div></div>
+        <div class="lr-ctls"><div class="lr-seg" role="group" aria-label="Comparison measure"><button aria-pressed="true" data-cmpm="annual">Annual</button><button aria-pressed="false" data-cmpm="cum">Cumulative</button></div><button class="lr-btn" id="cmp-clear">Clear</button></div>
+      </div>
+      <div class="lr-chart" id="cmp" data-source="register"></div>
+      <div class="lr-chips" id="cmp-leg"></div>
+    </div>
+    <div class="lr-card lr-card--flush">
+      <div class="lr-tablewrap lr-tablewrap--tall">
+        <table class="lr-table" id="ptable" data-source="projects" data-row-key="project">
+          <thead><tr>
+            <th data-field="project" data-sort="project">Project</th>
+            <th data-field="country" data-sort="country" class="hide-sm">Country</th>
+            <th data-field="storage_type" data-sort="storage_type" class="hide-md">Storage type</th>
+            <th data-field="first_year" data-sort="first_year" class="n hide-md">First</th>
+            <th data-field="last_year" data-sort="last_year" class="n hide-md">Last</th>
+            <th data-field="mt_2024" data-sort="mt_2024" class="n hide-sm">2024 Mt</th>
+            <th data-field="cumulative" data-sort="cumulative" class="n" aria-sort="descending">Cumulative Mt</th>
+            <th data-field="share_pct" data-sort="share_pct" class="n hide-sm">Share %</th>
+            <th data-field="status" data-sort="status" class="hide-md">Status</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="lr-tablefoot" id="pcount">—</div>
+    </div>
+  </section>
+
+  <!-- ================= DATA QUALITY ================= -->
+  <section class="lr-page" id="quality" data-page="quality" hidden>
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">2025 reporting progress</div><h2>How complete is the 2025 record?</h2><p>The Register's 2025 column is still filling in. This view tracks which projects have reported, compares like with like, and shows what remains outstanding.</p></div>
+    <div class="lr-stats">
+      <div class="lr-stat"><div class="lr-eyebrow">Projects reported for 2025</div><div class="lr-stat__v"><span data-source="completeness" data-field="reported_both" id="q-both">—</span><small>of <span data-source="completeness" data-field="reported_2024" id="q-24">—</span></small></div><div class="lr-stat__d">Of the projects that reported for 2024</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">2024 storage awaiting a report</div><div class="lr-stat__v"><span data-source="completeness" data-field="awaiting_mt" id="q-wmt">—</span><small>Mt</small></div><div class="lr-stat__d"><span data-source="completeness" data-field="awaiting_share_pct" id="q-wpct">—</span>% of 2024, across <span data-source="completeness" data-field="awaiting" id="q-wn">—</span> projects</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">Like-for-like change</div><div class="lr-stat__v"><span data-source="completeness" data-field="like_change_pct" id="q-like">—</span><small>%</small></div><div class="lr-stat__d"><span data-source="completeness" data-field="like_2024_mt" id="q-l24">—</span> → <span data-source="completeness" data-field="like_2025_mt" id="q-l25">—</span> Mt for projects reporting both years</div></div>
+      <div class="lr-stat"><div class="lr-eyebrow">2025 if unchanged</div><div class="lr-stat__v"><span data-source="completeness" data-field="carry_forward_2025_mt" id="q-cf">—</span><small>Mt</small></div><div class="lr-stat__d">Illustrative: reported 2025 plus 2024 values carried forward for projects not yet reported</div></div>
+    </div>
+    <div class="lr-grid-2 lr-grid-2--wide">
+      <div class="lr-figure" id="track-card">
+        <div class="lr-figure__head"><div><div class="lr-figure__no">Figure 7</div><h3 class="lr-figure__title">2025 reporting by project</h3><div class="lr-figure__sub">Projects that reported for 2024, largest first · Mt CO<sub>2</sub></div></div></div>
+        <div class="lr-chart" id="track" data-source="register"></div>
+        <div class="lr-figure__legend"><span><i class="sw-ink"></i>2024</span><span><i class="sw-geo"></i>2025 reported</span><span><i style="background:transparent;border:1px dashed var(--lr-control)"></i>2025 awaiting</span></div>
+        <div class="lr-figure__src">Source: The London Register of Subsurface CO<sub>2</sub> Storage (2026); comparison calculated in this edition.</div>
+      </div>
+      <div class="lr-card">
+        <div class="lr-cardhead"><h3 class="lr-figure__title">Largest projects awaiting a 2025 report</h3><span class="lr-figure__sub">2024 Mt</span></div>
+        <table class="lr-rank" id="await" data-source="awaiting_2025" data-row-key="project">
+          <thead><tr><th data-field="project">Project</th><th data-field="country">Country</th><th data-field="mt_2024" class="n">2024 Mt</th></tr></thead><tbody></tbody>
+        </table>
+        <p class="lr-note" style="margin-top:14px">New in 2025: <span data-source="completeness" data-field="new_2025" id="q-new">—</span> projects reported storage for the first time, <span data-source="completeness" data-field="new_2025_mt" id="q-newmt">—</span> Mt in total.</p>
+      </div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Reporting pattern</div><h2>Where the record repeats itself</h2><p>Where a project reports only a cumulative amount, the Register uses the average for each year, which shows up as a run of identical values. Repeated values make up <b><span data-source="quality" data-field="repeated_share_pct" id="q-rep">—</span>%</b> of all storage on the Register (<span data-source="quality" data-field="repeated_mt" id="q-repmt">—</span> Mt across <span data-source="quality" data-field="repeated_projects" id="q-repn">—</span> projects).</p></div>
+    <div class="lr-figure" id="cover-card">
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Figure 8</div><h3 class="lr-figure__title">Reporting coverage, 1996–2025</h3><div class="lr-figure__sub">One row per project, ordered by first year reported</div></div>
+        <div class="lr-ctls"><div class="lr-seg" role="group" aria-label="Rows"><button aria-pressed="true" data-qs="all">All projects</button><button aria-pressed="false" data-qs="rep">Repeated only</button></div></div>
+      </div>
+      <div class="lr-tablewrap"><div class="lr-chart" id="coverage" data-source="register"></div></div>
+      <div class="lr-figure__legend"><span><i class="sw-geo"></i>Value reported</span><span><i class="sw-oil"></i>Same value 4+ years running</span><span><i style="background:var(--lr-line)"></i>No value</span></div>
+      <div class="lr-figure__src">Source: The London Register of Subsurface CO<sub>2</sub> Storage (2026). Repeated runs identified in this edition; they are a prompt to check the source, not a finding that a value is wrong.</div>
+    </div>
+  </section>
+
+  <!-- ================= DATA & REPORTS ================= -->
+  <section class="lr-page" id="data" data-page="data" hidden>
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Reports</div><h2>Annual reports, methodology and independent assurance</h2><p>Each edition includes an annual report and a data quality assessment by DNV. From 2026 the methodology is a separate report. Documents open in a new tab.</p></div>
+    <div class="lr-reports" id="reports" data-source="reports">
+      <div class="lr-edition"><h3 class="lr-figure__title">2026 edition <small>Latest</small></h3><div class="lr-rcards" id="r2026"></div></div>
+      <div class="lr-edition"><h3 class="lr-figure__title">2025 edition <small>Archive</small></h3><div class="lr-rcards" id="r2025"></div></div>
+    </div>
+
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">Data</div><h2>The Register in full</h2><p>Annual reported mass of CO<sub>2</sub> stored per project, in million tonnes. Shading scales with the amount. The full database, with sources and quantification protocols for every value, is on Zenodo.</p></div>
+    <div class="lr-notes">
+      <div class="lr-card"><h3 class="lr-figure__title">Definitions</h3><dl class="lr-dl">
+        <dt>Geological storage</dt><dd>CO<sub>2</sub> injected into saline formations or depleted fields with the primary purpose of storing it.</dd>
+        <dt>Geological storage with oil recovery</dt><dd>CO<sub>2</sub> injected into producing oil fields, where it improves recovery and a share is retained underground.</dd>
+        <dt>Mt</dt><dd>Million tonnes of CO<sub>2</sub>. One gigatonne (Gt) is 1,000 Mt.</dd></dl></div>
+      <div class="lr-card"><h3 class="lr-figure__title">Calculations in this edition</h3><dl class="lr-dl">
+        <dt>Totals and shares</dt><dd>Sums of the project values published in the Register. Missing years count as zero.</dd>
+        <dt>Start cohort</dt><dd>Grouped by the first year a project reports storage above zero.</dd>
+        <dt>Growth fit</dt><dd>Least-squares line through the natural log of annual totals, 2005–2024.</dd></dl></div>
+      <div class="lr-card"><h3 class="lr-figure__title">Reading the data</h3><dl class="lr-dl">
+        <dt>2025 is incomplete</dt><dd>Several operators had not reported 2025 when the edition was compiled.</dd>
+        <dt>Repeated values</dt><dd><span data-source="findings" data-field="repeated_projects" id="n-rep">—</span> projects report an identical value for four or more consecutive years. The Register notes that where a project reports only a cumulative amount, the average is used for each year, and its spreadsheet marks those cases.</dd>
+        <dt>Protocols</dt><dd>Per-project sources and protocols are in the full database and the methodology report.</dd></dl></div>
+    </div>
+    <div class="lr-figure" id="table-card">
+      <div class="lr-figure__head">
+        <div><div class="lr-figure__no">Table 1</div><h3 class="lr-figure__title">Annual CO<sub>2</sub> stored by project, Mt per year</h3></div>
+        <div class="lr-ctls"><select id="tc" aria-label="Table country"><option value="">All countries</option></select><a class="lr-btn lr-btn--primary" href="https://zenodo.org/records/23400216" target="_blank" rel="noopener">Full database on Zenodo</a></div>
+      </div>
+      <div class="lr-tablewrap lr-tablewrap--tall">
+        <table class="lr-heat" id="heat" data-source="register" data-row-key="project"><thead></thead><tbody></tbody></table>
+      </div>
+      <div class="lr-figure__src">Source: The London Register of Subsurface CO<sub>2</sub> Storage (2026). Empty cells are years with no reported value.</div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="lr-page" id="about" data-page="about" hidden>
+    <div class="lr-sechead"><div class="lr-eyebrow lr-eyebrow--blue">About</div><h2>Source, citation and credits</h2><p>The Register is maintained at Imperial College London. This interactive edition presents its published data and is not an official Imperial College London website.</p></div>
+    <div class="lr-notes">
+      <div class="lr-card"><h3 class="lr-figure__title">The Register</h3>
+        <p class="lr-p">A centralised register of annual CO<sub>2</sub> stored underground by operational projects, built from operator submissions and public reporting. Funded by the Royal Academy of Engineering and supported by a consortium from academia, industry and government.</p>
+        <dl class="lr-team"><dt>Prof. Samuel Krevor</dt><dd>Director &amp; PI</dd><dt>Dr Xiaowei Gao</dt><dd>Executive Director</dd><dt>Maksim Elizarev</dt><dd>Data quality control</dd><dt>Dr Anjanette Harry</dt><dd>Project Manager</dd></dl>
+        <p class="lr-p"><a href="https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/" target="_blank" rel="noopener">Official Register website</a></p></div>
+      <div class="lr-card"><h3 class="lr-figure__title">How to cite the data</h3>
+        <p class="lr-p">Gao, X., Elizarev, M., &amp; Krevor, S. (2026). <i>The London Register of Subsurface CO2 Storage: 2026 Annual Report.</i> Imperial College London.</p>
+<pre class="lr-bib" id="bib">@techreport{gao2026londonregister,
+  author      = {Gao, Xiaowei and Elizarev, Max and Krevor, Samuel},
+  title       = {The London Register of Subsurface CO2 Storage: 2026 Annual Report},
+  institution = {Imperial College London},
+  year        = {2026},
+  url         = {https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/}
+}</pre>
+        <button class="lr-btn" id="copybib">Copy BibTeX</button></div>
+      <div class="lr-card"><h3 class="lr-figure__title">Further reading</h3>
+        <p class="lr-p">Zhang, Y., Jackson, C. &amp; Krevor, S. (2022). An estimate of the amount of geological CO<sub>2</sub> storage over the period of 1996–2020. <i>Environmental Science &amp; Technology Letters</i>, 9(8). <a href="https://doi.org/10.1021/acs.estlett.2c00296" target="_blank" rel="noopener">doi.org/10.1021/acs.estlett.2c00296</a></p>
+        <p class="lr-p">Krevor, S. et al. (2023). Subsurface carbon dioxide and hydrogen storage for a sustainable energy future. <i>Nature Reviews Earth &amp; Environment</i>, 4(2). <a href="https://doi.org/10.1038/s43017-022-00376-8" target="_blank" rel="noopener">doi.org/10.1038/s43017-022-00376-8</a></p>
+        <p class="lr-p">Zhang, Y., Jackson, C. &amp; Krevor, S. (2024). The feasibility of reaching gigatonne scale CO<sub>2</sub> storage by mid-century. <i>Nature Communications</i>, 15. <a href="https://doi.org/10.1038/s41467-024-51226-8" target="_blank" rel="noopener">doi.org/10.1038/s41467-024-51226-8</a></p></div>
+    </div>
+    <div class="lr-card lr-adds">
+      <h3 class="lr-figure__title">What this interactive edition adds</h3>
+      <p class="lr-p">The official website and annual reports remain the source for the data, the narrative findings, the share-by-project chart, the project-level Figure 1 and the reporting-standards timeline. This edition adds interactive views of the same published data:</p>
+      <ul class="lr-addlist">
+        <li><b>Year-on-year bridge</b> showing project by project how the total changed, for any pair of years</li>
+        <li><b>2025 like-for-like comparison</b> and a list of the largest projects still to report</li>
+        <li><b>Reporting coverage chart</b> showing every project's history and highlighting repeated annual values</li>
+        <li><b>Start-cohort breakdown</b> of annual storage by when projects began reporting</li>
+        <li><b>Project histories</b> for every project, with side-by-side comparison of up to four</li>
+        <li><b>Country map</b> with each country's split by storage type</li>
+        <li><b>Growth scenario</b> to 2050 you can adjust, labelled as illustrative</li>
+        <li><b>Light and dark themes</b> on a documented design system</li>
+      </ul>
+    </div>
+    <div class="lr-dev" id="developer">
+      <img id="dev-photo" alt="Portrait of Matin Shahin" width="112" height="112">
+      <div><div class="lr-eyebrow">Redesigned &amp; developed by</div><div class="lr-who">Matin Shahin</div><div class="lr-roles">AI Entrepreneur · Principal Reservoir Engineer · CTO · Applied AI Research Scientist</div></div>
+    </div>
+  </section>
+
+  <footer class="lr-foot">Data: The London Register of Subsurface CO<sub>2</sub> Storage, Imperial College London, 2026 edition. Interactive edition redesigned &amp; developed by Matin Shahin; not an official Imperial College London website.</footer>
+  <div class="lr-tip" id="tip" role="tooltip"></div>
+</div>
+<script src="images.js"></script>
+<script src="world.js"></script>
+<script src="calcs.js"></script>
+<script src="app.js"></script>
+<script src="quality.js"></script>
